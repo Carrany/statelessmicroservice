@@ -1,0 +1,26 @@
+{
+  "name": "Task2",
+  "version": "1.0.0",
+  "description": "stateless micro-service",
+  "main": "index.js",
+  "author": "carrany",
+  "license": "MIT",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "concurrently": "^5.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fast-json-patch": "^3.0.0-1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.5"
+  }
+}
